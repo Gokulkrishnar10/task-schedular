@@ -45,6 +45,8 @@ app = FastAPI(
     description = "AI-powered task scheduler with ML pipeline and Google Calendar sync",
     version     = "3.0.0",
 )
+scheduler.start()
+print("Scheduler started successfully")
 
 app.add_middleware(
     CORSMiddleware,
