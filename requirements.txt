@@ -1,6 +1,7 @@
 # Core backend
 fastapi==0.111.0
 uvicorn==0.29.0
+gunicorn==22.0.0
 pydantic==2.7.1
 python-dotenv==1.0.1
 
@@ -17,6 +18,6 @@ httpx==0.27.0
 scikit-learn==1.4.2
 numpy==1.26.4
 
-# Google Calendar integration (optional — remove if not needed)
+# Google Calendar integration
 google-api-python-client==2.125.0
 google-auth==2.29.0
