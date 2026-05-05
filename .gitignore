@@ -1,0 +1,7 @@
+.env
+backend/.env
+backend/service_account.json
+__pycache__/
+*.pyc
+*.db
+itoc.db
